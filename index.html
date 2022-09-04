@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/onsenui.css">
+    <link rel="stylesheet" href="css/onsen/onsen-css-components.min.css">
+    <script src="js/handlebars/handlebars-v4.7.7.js"></script>
+    <script src="js/onsen/onsenui.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/code.js"></script>
+  </head>
+  <body>
+     <ons-navigator id="myNavigator" animation="none" page="page1.html"> </ons-navigator>
+        <template id="page1.html">
+            <ons-page id="page1">
+                <ons-row id="page-row">
+                    <ons-col id="trans-container">
+                        <ons-list>
+                            <ons-list-header>
+                                08/22/2022
+                            </ons-list-header>
+                            <ons-list-item tappable expandable>
+                                <div class="left">
+                                    <ons-icon icon="md-amazon" class="list-item__icon"></ons-icon>    
+                                </div>
+                                <div class="center">
+                                    <span class="list-item__tite">
+                                        Amazon.com
+                                    </span>
+                                    <span class="list-item__subtitle">        
+                                        Wall art Sale - Custom Piece
+                                    </span>
+                                </div>
+                                <div class="right">
+                                    $10.00
+                                </div>
+                                <div class="expandable-content">
+                                    Shows when clicked
+                                </div>
+                            </ons-list-item>
+                        </ons-list>
+                    </ons-col>
+                </ons-row>
+            </ons-page>
+        </template>
+        <template id="page2.html">
+            <ons-page id="page2">
+                Page 2
+            </ons-page>
+        </template> 
+  </body>
+</html>
